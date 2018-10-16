@@ -6,7 +6,7 @@ class Song
     @song = song
     @@all << self
     
-    @@all
+    @song
   end
 
   def self.all
